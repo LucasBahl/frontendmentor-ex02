@@ -1,0 +1,29 @@
+* {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        margin: 2rem;
+        border-radius: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+    .container img {
+        align-items: center;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 1rem;
+    }
+    .container__main h1 {
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+    .container__main p {
+        font-size: 2rem;
+    }
+}
